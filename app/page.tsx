@@ -1,3 +1,4 @@
+// TODO: Add a landing page here
 export default function Home() {
   return (
     <div>

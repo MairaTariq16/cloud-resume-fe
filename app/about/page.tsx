@@ -1,10 +1,8 @@
-import Sidebar from "@/components/sidebar";
-import React from "react";
-
+// TODO: Create a simple about page
 const AboutPage = () => {
   return (
     <div className="">
-      <h1>About</h1>
+      <h1>About Me</h1>
     </div>
   );
 };
