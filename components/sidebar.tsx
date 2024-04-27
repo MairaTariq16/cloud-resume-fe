@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 
 const SideNav = () => {
   return (
-    <aside className=" w-1/5 flex flex-col justify-center items-center text-center bg-secondary text-primary p-12 ">
+    <aside className=" w-1/5 flex flex-col justify-center items-center text-center bg-secondary text-primary p-12">
       {SIDENAV_ITEMS.map((item, idx) => {
         return <MenuItem key={idx} item={item} />;
       })}

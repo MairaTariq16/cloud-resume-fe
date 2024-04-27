@@ -22,10 +22,11 @@ export default function RootLayout({
           inter.className,
           "flex",
           "bg-primary",
-          "overflow-hidden",
           "p-10",
           "space-x-10",
-          "min-h-screen"
+          "max-h-screen",
+          "min-h-screen",
+          "overflow-hidden"
         )}
       >
         <Sidebar />
