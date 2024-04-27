@@ -1,7 +1,8 @@
-import React from "react";
+import Content from "@/components/content";
+import { EXPERIENCE } from "@/lib/constants";
 
 const ExperiencePage = () => {
-  return <div>Experience</div>;
+  return <Content title={EXPERIENCE.title} items={EXPERIENCE.items} />;
 };
 
 export default ExperiencePage;

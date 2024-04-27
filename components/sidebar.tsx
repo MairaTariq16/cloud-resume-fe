@@ -1,18 +1,18 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Button } from "@/components/ui/button";
 import { SIDENAV_ITEMS } from "@/lib/constants";
 import { SideNavItem } from "@/lib/types";
-import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const SideNav = () => {
   return (
-    <aside className="h-screen  w-1/5 flex flex-col justify-center items-center bg-primary text-secondary sticky">
+    <aside className=" w-1/5 flex flex-col justify-center items-center bg-secondary text-primary p-12 ">
       {SIDENAV_ITEMS.map((item, idx) => {
         return <MenuItem key={idx} item={item} />;
       })}
-      <Button className="bg-secondary text-primary hover:bg-secondary my-5">
+      <Button className="bg-primary text-secondary my-5">
         Download Resume
       </Button>
     </aside>

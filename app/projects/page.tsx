@@ -1,7 +1,8 @@
-import React from "react";
+import Content from "@/components/content";
+import { PROJECTS } from "@/lib/constants";
 
 const ProjectsPage = () => {
-  return <div>Projects</div>;
+  return <Content title={PROJECTS.title} items={PROJECTS.items} />;
 };
 
 export default ProjectsPage;

@@ -1,7 +1,8 @@
-import React from "react";
+import Content from "@/components/content";
+import { SKILLS } from "@/lib/constants";
 
 function SkillsPage() {
-  return <div>Skills</div>;
+  return <Content title={SKILLS.title} items={SKILLS.items} />;
 }
 
 export default SkillsPage;

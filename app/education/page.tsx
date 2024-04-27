@@ -1,13 +1,8 @@
-import Sidebar from "@/components/sidebar";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import React from "react";
+import Content from "@/components/content";
+import { EDUCATION } from "@/lib/constants";
 
 const EducationPage = () => {
-  return (
-    <div className="">
-      <h1>Education</h1>
-    </div>
-  );
+  return <Content title={EDUCATION.title} items={EDUCATION.items} />;
 };
 
 export default EducationPage;

@@ -1,8 +1,8 @@
+import Sidebar from "@/components/sidebar";
+import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Sidebar from "@/components/sidebar";
-import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +17,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, "flex")}>
+      <body
+        className={cn(
+          inter.className,
+          "flex",
+          "bg-primary",
+          "overflow-hidden",
+          "p-10",
+          "space-x-10",
+          "min-h-screen"
+        )}
+      >
         <Sidebar />
-        <div className="grow overflow-scroll">{children}</div>
+        <div className="grow">{children}</div>
       </body>
     </html>
   );
