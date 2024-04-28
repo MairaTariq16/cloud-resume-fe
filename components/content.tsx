@@ -7,8 +7,8 @@ const Content = (props: ContentType) => {
       <div className="overflow-scroll">
         {props.items.map((item, idx) => {
           return (
-            <div key={idx} className="mt-2 mb-7">
-              <div className="flex justify-between ">
+            <div key={idx} className="mt-2 mb-4">
+              <div className="flex justify-between">
                 <h2 className="text-xl m-2">{item.primaryHeading}</h2>
                 <span className="font-extralight text-xs my-3">
                   {item.date}
