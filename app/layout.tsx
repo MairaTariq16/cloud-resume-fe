@@ -26,7 +26,8 @@ export default function RootLayout({
           "space-x-10",
           "max-h-screen",
           "min-h-screen",
-          "overflow-hidden"
+          "overflow-hidden",
+          "font-mono "
         )}
       >
         <Sidebar />
