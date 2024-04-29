@@ -4,11 +4,11 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
     title: "Home",
     path: "/",
   },
-  // TODO:: Add about me page
-  // {
-  //   title: "About Me",
-  //   path: "/about",
-  // },
+
+  {
+    title: "About Me",
+    path: "/about",
+  },
   {
     title: "Education",
     path: "/education",
@@ -25,62 +25,25 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
     title: "Skills",
     path: "/skills",
   },
+  {
+    title: "Certifications",
+    path: "/certifications",
+  },
 ];
 
 export const EDUCATION: Content = {
   title: "Education",
   items: [
     {
-      primaryHeading: " National University of Science Technology, Islamabad",
+      primaryHeading:
+        "National University of Science Technology (NUST), Islamabad",
       secondaryHeading: "Bachelor's in Computer Science",
       description: [
         "CGPA: 3.83/4.00",
+        "Ranked 4th out of 129 students",
+        "Awarded GPA Based Scholarship in 4 out of 8 semesters",
         "Awarded Rector's Gold Medal for Best Final Year Project (FYP)",
-      ],
-      date: "2018-2022",
-    },
-    {
-      primaryHeading: " National University of Science Technology, Islamabad",
-      secondaryHeading: "Bachelor's in Computer Science",
-      description: [
-        "CGPA: 3.83/4.00",
-        "Awarded Rector's Gold Medal for Best Final Year Project (FYP)",
-      ],
-      date: "2018-2022",
-    },
-    {
-      primaryHeading: " National University of Science Technology, Islamabad",
-      secondaryHeading: "Bachelor's in Computer Science",
-      description: [
-        "CGPA: 3.83/4.00",
-        "Awarded Rector's Gold Medal for Best Final Year Project (FYP)",
-      ],
-      date: "2018-2022",
-    },
-    {
-      primaryHeading: " National University of Science Technology, Islamabad",
-      secondaryHeading: "Bachelor's in Computer Science",
-      description: [
-        "CGPA: 3.83/4.00",
-        "Awarded Rector's Gold Medal for Best Final Year Project (FYP)",
-      ],
-      date: "2018-2022",
-    },
-    {
-      primaryHeading: " National University of Science Technology, Islamabad",
-      secondaryHeading: "Bachelor's in Computer Science",
-      description: [
-        "CGPA: 3.83/4.00",
-        "Awarded Rector's Gold Medal for Best Final Year Project (FYP)",
-      ],
-      date: "2018-2022",
-    },
-    {
-      primaryHeading: " National University of Science Technology, Islamabad",
-      secondaryHeading: "Bachelor's in Computer Science",
-      description: [
-        "CGPA: 3.83/4.00",
-        "Awarded Rector's Gold Medal for Best Final Year Project (FYP)",
+        "Core Courses: Object Oriented Programming, Data Structures & Algorithms, Database Systems, Web Development, Software Engineering, Operating Systems, Computer Networks, Artificial Intelligence, Deep Learning, Distributed Computing, Theory of Automata, Compiler Construction, Computer Architecture",
       ],
       date: "2018-2022",
     },
@@ -91,94 +54,36 @@ export const EXPERIENCE: Content = {
   title: "Work Experience",
   items: [
     {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "Techlogix",
+      primaryHeading: "Software Engineer",
+      secondaryHeading: "INTECH Process Automation Inc.",
       description: [
-        "Worked on the development of a web application using React and Redux",
-        "Implemented a feature to allow users to upload and download files",
-        "Used TypeScript for type-checking and to improve code quality",
+        "Deployed and managed Kubernetes clusters and Docker containers for seamless, high-availability operations across multiple environments",
+        "Deployed applications to Azure, ensuring cost-effective solutions while maintaining industry standards for compliance and best practices",
+        "Designed and implemented automated CI/CD pipelines on BitBucket and ArgoCD",
+        "Implemented Infrastructure as Code with Pulumi for faster and easily maintainable deployments",
+        "Provided production support for bug triage, analysis and resolution",
+        "Introduced Git Flow branching strategy for streamlining releases",
       ],
-      date: "June 2021 - August 2021",
+      date: "July 2022 - Present",
     },
     {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "10Pearls",
+      primaryHeading: "Trainee Software Engineer",
+      secondaryHeading: "BrinySoft",
       description: [
-        "Developed a web application using React and Redux",
-        "Implemented a feature to allow users to create and manage tasks",
-        "Used Jest and Enzyme for testing",
+        "Acquired practical proficiency in HTML, CSS, and Bootstrap through hands-on experience, crafting visually appealing and responsive websites",
+        "Received training in mobile application development in Flutter and integration with Firebase",
       ],
-      date: "June 2020 - August 2020",
+      date: "August 2021 - April 2022",
     },
     {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "Systems Limited",
+      primaryHeading: "React Native Intern",
+      secondaryHeading: "Allied Consultants",
       description: [
-        "Worked on the development of a web application using Angular",
-        "Implemented a feature to allow users to view and manage their profile",
-        "Used Jasmine and Karma for testing",
+        "Utilized React Native for a mobile application for delivery drivers",
+        "Identified and rectified a critical bug in the existing code base, ensuring enhanced stability",
+        "Implemented the notifications feature and Google Maps navigation in the application",
       ],
-      date: "June 2019 - August 2019",
-    },
-    {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "Techlogix",
-      description: [
-        "Worked on the development of a web application using React and Redux",
-        "Implemented a feature to allow users to upload and download files",
-        "Used TypeScript for type-checking and to improve code quality",
-      ],
-      date: "June 2021 - August 2021",
-    },
-    {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "10Pearls",
-      description: [
-        "Developed a web application using React and Redux",
-        "Implemented a feature to allow users to create and manage tasks",
-        "Used Jest and Enzyme for testing",
-      ],
-      date: "June 2020 - August 2020",
-    },
-    {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "Systems Limited",
-      description: [
-        "Worked on the development of a web application using Angular",
-        "Implemented a feature to allow users to view and manage their profile",
-        "Used Jasmine and Karma for testing",
-      ],
-      date: "June 2019 - August 2019",
-    },
-    {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "Techlogix",
-      description: [
-        "Worked on the development of a web application using React and Redux",
-        "Implemented a feature to allow users to upload and download files",
-        "Used TypeScript for type-checking and to improve code quality",
-      ],
-      date: "June 2021 - August 2021",
-    },
-    {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "10Pearls",
-      description: [
-        "Developed a web application using React and Redux",
-        "Implemented a feature to allow users to create and manage tasks",
-        "Used Jest and Enzyme for testing",
-      ],
-      date: "June 2020 - August 2020",
-    },
-    {
-      primaryHeading: "Software Engineer Intern",
-      secondaryHeading: "Systems Limited",
-      description: [
-        "Worked on the development of a web application using Angular",
-        "Implemented a feature to allow users to view and manage their profile",
-        "Used Jasmine and Karma for testing",
-      ],
-      date: "June 2019 - August 2019",
+      date: "June 2020 - August 2022",
     },
   ],
 };
@@ -232,21 +137,6 @@ export const SKILLS: Content = {
     {
       primaryHeading: "Backend Development",
       description: ["Node.js, Express, MongoDB, Firebase, REST APIs"],
-      date: "",
-    },
-    {
-      primaryHeading: "Testing",
-      description: ["Jest, Enzyme, Jasmine, Karma"],
-      date: "",
-    },
-    {
-      primaryHeading: "Version Control",
-      description: ["Git, GitHub"],
-      date: "",
-    },
-    {
-      primaryHeading: "Tools",
-      description: ["VS Code, Postman, Figma"],
       date: "",
     },
   ],

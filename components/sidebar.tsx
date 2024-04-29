@@ -25,14 +25,14 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
   const pathname = usePathname();
 
   return (
-    <div className="py-3">
+    <div className="py-2">
       <Link
         href={item.path}
         className={`hover:font-medium ${
           item.path === pathname ? "underline" : ""
         }`}
       >
-        <span className="">{item.title}</span>
+        <span className="font-extralight text-xs">{item.title}</span>
       </Link>
     </div>
   );
