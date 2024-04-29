@@ -1,4 +1,8 @@
-import { Content, SideNavItem } from "./types";
+import { FaGithub, FaGlobe, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { IoIosCall } from "react-icons/io";
+import { IoLocationSharp, IoPersonCircleSharp } from "react-icons/io5";
+import { AboutInfoItem, Content, SideNavItem } from "./types";
 export const SIDENAV_ITEMS: SideNavItem[] = [
   {
     title: "Home",
@@ -28,6 +32,42 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
   {
     title: "Certifications",
     path: "/certifications",
+  },
+];
+
+export const ABOUT_SUMMARY: string = `I am a proactive DevOps Engineer with expertise in deploying and managing Kubernetes clusters and Docker containers. I have successfully implemented Infrastructure as Code (IaC) using Pulumi, automating the setting up of infrastructure on Azure, which resulted in significant increase in deployment efficiency. Additionally, I have managed Kubernetes clusters; both on-premise and on Azure Kubernetes Service (AKS), ensuring smooth operations and optimal resource utilization. I have successfully utilized Bitbucket Pipelines and ArgoCD to establish automated CI/CD pipelines, streamlining the deployment process and enhancing development productivity.`;
+export const ABOUT_INFO: AboutInfoItem[] = [
+  {
+    value: "Maira Tariq",
+    icon: IoPersonCircleSharp,
+  },
+  {
+    value: "mairatariq.me",
+    icon: FaGlobe,
+    link: "https://mairatariq.me",
+  },
+  {
+    value: "Lahore, Pakistan",
+    icon: IoLocationSharp,
+  },
+  {
+    value: "/in/maira-tariq16",
+    icon: FaLinkedin,
+    link: "https://www.linkedin.com/in/maira-tariq16",
+  },
+  {
+    value: "+92-322-4219513",
+    icon: IoIosCall,
+  },
+  {
+    value: "MairaTariq16",
+    icon: FaGithub,
+    link: "https://github.com/MairaTariq16",
+  },
+  {
+    value: "maira.t.tariq@gmail.com",
+    icon: HiOutlineMail,
+    link: "mailto:maira.t.tariq@gmail.com",
   },
 ];
 
