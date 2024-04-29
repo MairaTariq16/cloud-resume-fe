@@ -12,7 +12,7 @@ const SideNav = () => {
       {SIDENAV_ITEMS.map((item, idx) => {
         return <MenuItem key={idx} item={item} />;
       })}
-      <Button className="bg-primary text-secondary my-5">
+      <Button className="bg-primary text-secondary my-5 before:ease relative overflow-hidden border transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-primary hover:before:-translate-x-40">
         Download Resume
       </Button>
     </aside>
@@ -28,11 +28,11 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
     <div className="py-2">
       <Link
         href={item.path}
-        className={`hover:font-medium ${
-          item.path === pathname ? "underline" : ""
-        }`}
+        className={`${
+          item.path === pathname ? "font-semibold" : ""
+        } hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-0.5 before:origin-right before:transition-transform before:duration-200 before:scale-x-0 before:bg-primary before:opacity-20 before:absolute before:left-0 before:bottom-0 `}
       >
-        <span className="font-extralight text-xs">{item.title}</span>
+        <span className=" text-xs">{item.title}</span>
       </Link>
     </div>
   );
