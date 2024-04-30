@@ -8,6 +8,8 @@ export interface SideNavItem {
 export interface ContentItem {
   primaryHeading: string;
   secondaryHeading?: string;
+  primaryLink?: string;
+  secondaryLink?: string;
   description?: string[];
   date?: string;
 }
