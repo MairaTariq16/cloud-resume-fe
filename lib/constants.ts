@@ -1,6 +1,5 @@
 import { FaGithub, FaGlobe, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { IoIosCall } from "react-icons/io";
 import { IoLocationSharp, IoPersonCircleSharp } from "react-icons/io5";
 import { AboutInfoItem, Content, SideNavItem } from "./types";
 export const SIDENAV_ITEMS: SideNavItem[] = [
@@ -54,10 +53,6 @@ export const ABOUT_INFO: AboutInfoItem[] = [
     value: "/in/maira-tariq16",
     icon: FaLinkedin,
     link: "https://www.linkedin.com/in/maira-tariq16",
-  },
-  {
-    value: "+92-322-4219513",
-    icon: IoIosCall,
   },
   {
     value: "MairaTariq16",
@@ -132,31 +127,27 @@ export const PROJECTS: Content = {
   title: "Projects",
   items: [
     {
-      primaryHeading: "Portfolio Website",
+      primaryHeading: "Personal Portfolio Website",
+      secondaryHeading: "Cloud Resume Challenge - Azure",
+      secondaryLink:
+        "https://cloudresumechallenge.dev/docs/the-challenge/azure/",
       description: [
-        "Developed a personal portfolio website using React and Next.js",
-        "Implemented a responsive design using CSS Grid and Flexbox",
-        "Deployed the website on Vercel for hosting",
+        "Developed a complete end-to-end solution, from code development to continuous deployment",
+        "Created personal resume website using Next.js and Tailwind CSS",
+        "Implemented CI/CD pipelines with GitHub Actions for automated deployment to Azure Static Web Apps",
+        "Used Terraform for Infrastructure as Code (IaC) to deploy resources on Azure",
+      ],
+      date: "2024",
+    },
+    {
+      primaryHeading:
+        "Urdu to Pakistan Sign Language (PSL) Application Prototype",
+      secondaryHeading: "Final Year Project",
+      description: [
+        "Prototype developed using Flutter, Flask and OpenPose",
+        "Prepared dataset of Urdu sentences and their corresponding PSL sentences",
       ],
       date: "2022",
-    },
-    {
-      primaryHeading: "E-commerce Website",
-      description: [
-        "Developed an e-commerce website using React and Redux",
-        "Implemented features like product listing, cart management, and checkout",
-        "Used Firebase for authentication and database management",
-      ],
-      date: "2021",
-    },
-    {
-      primaryHeading: "Task Management App",
-      description: [
-        "Developed a task management application using React and Redux",
-        "Implemented features like task creation, editing, and deletion",
-        "Used Local Storage for data persistence",
-      ],
-      date: "2020",
     },
   ],
 };
@@ -165,19 +156,37 @@ export const SKILLS: Content = {
   title: "Skills",
   items: [
     {
-      primaryHeading: "Programming Languages",
-      description: ["JavaScript, TypeScript, Python, Java, C++"],
-      date: "",
+      primaryHeading: "Containerization and Orchestration",
+      description: ["Kubernetes, Docker, Azure Kubernetes Service (AKS)"],
     },
     {
-      primaryHeading: "Frontend Development",
-      description: ["React, Redux, Next.js, Angular, HTML, CSS, SASS"],
-      date: "",
+      primaryHeading: "Cloud Platforms",
+      description: ["Azure"],
     },
     {
-      primaryHeading: "Backend Development",
-      description: ["Node.js, Express, MongoDB, Firebase, REST APIs"],
-      date: "",
+      primaryHeading: "CI/CD tools",
+      description: ["Bitbucket Pipelines, ArgoCD"],
+    },
+    {
+      primaryHeading: "Infrastructure as Code",
+      description: ["Pulumi, Terraform (Basic)"],
+    },
+    {
+      primaryHeading: "Programming and Scripting Languages",
+      description: ["TypeScript, Python, Bash "],
+    },
+  ],
+};
+
+export const CERTIFICATIONS: Content = {
+  title: "Certifications",
+  items: [
+    {
+      primaryHeading:
+        "Microsoft Certified: Azure Administrator Associate (AZ-104)",
+      primaryLink:
+        "https://learn.microsoft.com/en-us/users/mairatariq-6689/credentials/7531abfa5f36b424",
+      date: "August 2023",
     },
   ],
 };
