@@ -92,12 +92,12 @@ export const EXPERIENCE: Content = {
       primaryHeading: "Software Engineer",
       secondaryHeading: "INTECH Process Automation Inc.",
       description: [
-        "Deployed and managed Kubernetes clusters and Docker containers for seamless, high-availability operations across multiple environments",
-        "Deployed applications to Azure, ensuring cost-effective solutions while maintaining industry standards for compliance and best practices",
-        "Designed and implemented automated CI/CD pipelines on BitBucket and ArgoCD",
-        "Implemented Infrastructure as Code with Pulumi for faster and easily maintainable deployments",
-        "Provided production support for bug triage, analysis and resolution",
-        "Introduced Git Flow branching strategy for streamlining releases",
+        "Deployed and managed Azure infrastructure for web applications, including App Services, Kubernetes Services and OpenAI",
+        "Maintained Kubernetes clusters in air-gapped environments with minimal downtime",
+        "Utilized Docker to containerize applications",
+        "Automated infrastructure provisioning in Azure with Pulumi for IaC, largely reducing deployment time",
+        "Designed and implemented automated CI/CD process with BitBucket Pipelines and ArgoCD",
+        "Provided production support for critical bug triage, analysis and resolution",
       ],
       date: "July 2022 - Present",
     },
@@ -161,7 +161,7 @@ export const SKILLS: Content = {
     },
     {
       primaryHeading: "Cloud Platforms",
-      description: ["Azure"],
+      description: ["Azure (AKS, App Services)"],
     },
     {
       primaryHeading: "CI/CD tools",
@@ -174,6 +174,10 @@ export const SKILLS: Content = {
     {
       primaryHeading: "Programming and Scripting Languages",
       description: ["TypeScript, Python, Bash "],
+    },
+    {
+      primaryHeading: "Operating Systems",
+      description: ["Linux (Ubuntu, CentOS)"],
     },
   ],
 };
