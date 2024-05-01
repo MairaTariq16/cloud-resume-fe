@@ -94,9 +94,10 @@ export const EXPERIENCE: Content = {
       description: [
         "Deployed and managed Azure infrastructure for web applications, including App Services, Kubernetes Services and OpenAI",
         "Maintained Kubernetes clusters in air-gapped environments with minimal downtime",
+        "Increased reliability of on premise systems by implementing backup and disaster recovery solution using Acronis Cyber Protect",
+        "Automated infrastructure provisioning in Azure with Pulumi for IaC, reducing time to set up new environments by ~70%",
         "Utilized Docker to containerize applications",
-        "Automated infrastructure provisioning in Azure with Pulumi for IaC, largely reducing deployment time",
-        "Designed and implemented automated CI/CD process with BitBucket Pipelines and ArgoCD",
+        "Designed and implemented automated CI/CD process with BitBucket Pipelines and ArgoCD, making deployments faster by ~85% and reducing manual errors",
         "Provided production support for critical bug triage, analysis and resolution",
       ],
       date: "July 2022 - Present",
