@@ -4,15 +4,14 @@ import { SIDENAV_ITEMS } from "@/lib/constants";
 import { SideNavItem } from "@/lib/types";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import DownloadButton from "./download-button";
 
 const SideNav = () => {
   return (
-    <aside className="flex flex-col justify-center items-center text-center bg-secondary text-primary p-12">
+    <aside className="flex flex-col justify-center items-center text-center bg-secondary text-primary text-nowrap min-w-60">
       {SIDENAV_ITEMS.map((item, idx) => {
         return <MenuItem key={idx} item={item} />;
       })}
-      <DownloadButton />
+      {/* <DownloadButton /> */}
     </aside>
   );
 };
